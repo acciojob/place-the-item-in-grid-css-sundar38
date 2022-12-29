@@ -1,9 +1,7 @@
 .holder{
     display: grid;
-    grid-template-columns: repeat(2,50%); 
-    column-gap: 0px;
-    padding: 212px;
-    /* grid-template-rows: repeat(2,50%); */
+    grid-template-columns: repeat(2,50%);    
+    grid-template-rows: repeat(2,50%); 
 }
 .holder .item{
     background-color:aqua;

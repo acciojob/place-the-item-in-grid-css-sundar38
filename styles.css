@@ -1,12 +1,11 @@
 .holder{
     display: grid;
-    grid-template-columns: repeat(2,50%);    
-    grid-template-rows: repeat(2,50%); 
+    grid-template-columns: repeat(2,200px);    
+    grid-template-rows: repeat(2,200px); 
 }
 .holder .item{
     background-color:aqua;
-    width: 200px;
-    height: 200px;
+    
     border: 1px solid black;
 }
 

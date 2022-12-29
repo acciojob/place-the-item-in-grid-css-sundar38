@@ -1,2 +1,14 @@
+.holder{
+    display: grid;
+    grid-template-columns: repeat(2,50%); 
+    column-gap: 0px;
+    padding: 212px;
+    /* grid-template-rows: repeat(2,50%); */
+}
+.holder .item{
+    background-color:aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
 
-/* Your CSS Code here. */
